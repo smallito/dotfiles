@@ -106,8 +106,9 @@ alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir
 alias matlab='/usr/local/MATLAB/R2018b/bin/matlab'
 alias processing-java='~/Documents/processing-3.5.1/processing-java'
 alias openrct2='~/Documents/OpenRCT2-0.1.2/build/openrct2'
-alias makeThatFuckingAnim='~/Done/makeThatFuckingAnim'
+alias makeThatFuckingAnim='~/Done/makeThatFuckingAnim.sh'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias bc='bc -l'
 
 
 # Alias definitions.

@@ -96,7 +96,7 @@ local guieditor    = "gedit"
 local scrlocker    = "xscreensaver"
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "web", "code", "office", "math", "ssh" }
+awful.util.tagnames = { "web", "code", "irc", "math", "ssh" }
 awful.layout.layouts = {
     awful.layout.suit.floating,
     awful.layout.suit.tile,

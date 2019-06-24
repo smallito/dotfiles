@@ -16,7 +16,6 @@ Plugin 'ervandew/supertab'
 Plugin 'https://github.com/vim-airline/vim-airline.git'
 Plugin 'https://github.com/vim-syntastic/syntastic.git'
 Plugin 'https://github.com/sophacles/vim-processing.git'
-"Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
