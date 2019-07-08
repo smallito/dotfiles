@@ -98,3 +98,5 @@ autocmd Filetype markdown set wrap
 autocmd Filetype markdown set linebreak
 autocmd Filetype markdown nnoremap j gj
 autocmd Filetype markdown nnoremap k gk
+
+autocmd Filetype python nnoremap <F5> <Esc>:w<CR>:!clear;python3 %<CR>

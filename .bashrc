@@ -138,3 +138,8 @@ export CAFFE_ROOT=/usr/share/doc/caffe-doc
 export PATH=$PATH:/home/small/Documents/processing-3.5.1/processing-java
 
 export EDITOR=vim
+
+#Delete this once you're done with the SNCF
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+
