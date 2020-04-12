@@ -652,6 +652,9 @@ awful.rules.rules = {
     { rule = { class = "terminator", "Terminator" },
       properties = { opacity = 0.8} },
 
+    { rule = { class = "guake" },
+      properties = { ontop = true} },
+
     { rule = { class = "Gimp", role = "gimp-image-window" },
           properties = { maximized = true } },
 }
@@ -740,6 +743,7 @@ autorun = true
 autorunApps =
 {
 	"chromium",
+	"mpd",
 	"setxkbmap us -variant intl",
 	"pactl load-module module-bluetooth-discover", --Bluetooth
 	"xscreensaver",
