@@ -107,9 +107,11 @@ alias matlab='/usr/local/MATLAB/R2018b/bin/matlab'
 alias processing-java='~/Documents/processing-3.5.1/processing-java'
 alias openrct2='~/Documents/OpenRCT2-0.1.2/build/openrct2'
 alias makeThatFuckingAnim='~/Done/makeThatFuckingAnim.sh'
+alias ltx='latexmk -bibtex -auxdir=build/ -outdir=build/ -pvc -pdf'
+alias python='python3' 
+
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias bc='bc -l'
-
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -132,14 +134,10 @@ if ! shopt -oq posix; then
 fi
 
 
+
 #Caffe root (non cuda version) with all the docs/examples/data
 export CAFFE_ROOT=/usr/share/doc/caffe-doc
 
 export PATH=$PATH:/home/small/Documents/processing-3.5.1/processing-java
 
 export EDITOR=vim
-
-#Delete this once you're done with the SNCF
-export FLASK_APP=flaskr
-export FLASK_ENV=development
-
